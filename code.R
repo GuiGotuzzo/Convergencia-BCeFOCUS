@@ -1,13 +1,14 @@
+install.packages("tidyverse")
 library(tidyverse)
 
-# Dados do Focus (26/12/2025)
+# Dados do Focus -> (26/12/2025)
 focus <- tibble(
   ano = c(2025, 2026, 2027, 2028),
   ipca = c(4.32, 3.60, 3.25, 3.25),
   selic = c(15.00, 12.25, 10.50, 9.75)
 )
 
-# Dados do RPM (cenário de referência)
+# Dados do RPM 
 rpm <- tibble(
   ano = c(2025, 2026, 2027, 2028),
   ipca = c(4.4, 3.5, 3.2, 3.0), 
